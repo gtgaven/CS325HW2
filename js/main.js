@@ -204,7 +204,7 @@ window.onload = function() {
             hero.y-=1;
         }else if(life>0){
             bass.pause();
-            life-=1;
+            life-=2;
             lifeText.text = 'Life: '+life;
             if(hero.y<480){
                 hero.y+=3;
